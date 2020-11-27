@@ -1,0 +1,84 @@
+body{
+    background-image: url("images/sky.jpg");
+    font-family: 'Nerko One', cursive;
+}
+.entry{
+    background: rgba(255, 255, 255, 0.3);
+}
+html,body{
+  height:600px;
+  width:98vw;
+  padding:0;
+  margin:0;
+}
+*{
+  box-sizing:border-box;
+}
+.box{
+padding-top: 20px;
+  contain: content;
+  width:350px;
+  height:600px;
+  /*border: 3px solid red;*/
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.container{
+  padding-top: 25px;
+  contain: content;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 30px;
+}
+input{
+    display:block;
+    height: 40px;
+    width: 150px;
+    background:transparent;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Nerko One', cursive;
+    border:1px solid rgb(7, 7, 7);
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background:transparent;
+    color: #000000;
+    font-size: 26px;
+    font-family: 'Nerko One', cursive;
+    border: none;
+    box-shadow: 2px 4px 5px rgb(0, 0, 0);
+}
+h1{
+    font-size: 36px;
+    margin-top:-5px;
+    
+}
+
+textarea{
+    background:#919fa3;
+    opacity: 0.5;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    height: 130px;
+    width: 340px;
+    border:1px solid rgb(7, 7, 7);
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
